@@ -4,6 +4,7 @@ import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import HomeScreen from './screens/HomeScreen.js';
 import ProductScreen from './screens/ProductScreen.js';
+import CartScreen from './screens/CartScreen.js';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
           <Routes>
             <Route path='/' element={<HomeScreen/>} exact/> //just render the HomeScreen component when the path is '/'
             <Route path='/product/:id' element={<ProductScreen/>}/> //just render the HomeScreen component when the path is '/'
-
+            <Route path='/cart/:id?' element={<CartScreen/>}/>
           </Routes>       
         </Container>
       </main>
