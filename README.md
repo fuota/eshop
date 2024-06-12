@@ -1,4 +1,4 @@
-VendorVista
+## VendorVista
 
 This project is a comprehensive e-commerce web application built using React and Django. It offers secure user authentication, product management, full-featured shopping cart, and admin order management. The platform integrates PayPal/credit card for secure payments and ensures a smooth checkout process. Users can manage their profiles, track order history, and enjoy personalized recommendations. The application is responsive thanks to React Bootstrap, providing a user-friendly interface and real-time state management with Redux.
 
